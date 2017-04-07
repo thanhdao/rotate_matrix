@@ -13,6 +13,6 @@ describe RotateMatrix do
                       [16,12,8,4]]
   end
   it 'rotate matrix 90 degree right' do
-    expect(RotateMatrix.rotate(@matrix)).to eq(@rotated_matrix)
+    expect(RotateMatrix.rotate(@matrix)).to eq(@rotated_matrix) 
   end
 end
